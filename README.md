@@ -3,6 +3,8 @@
 Evaluation-first video adaptation work covering LTX-Video 13B,
 HunyuanVideo-1.5, real-video manifests, sealed holdouts, and blinded review.
 
+Hugging Face artifacts: [licensed-source manifest](https://huggingface.co/datasets/hang010412/video-commons-posttraining-manifest) · [evidence dashboard](https://huggingface.co/spaces/hang010412/posttraining-evidence-dashboard) · [portfolio collection](https://huggingface.co/collections/hang010412/h200-training-and-post-training-portfolio-2026-09-6aba3f860fbd297da8c7fd51)
+
 ## Synthetic controlled benchmark
 
 ### LTX-Video 13B
@@ -38,4 +40,3 @@ python -m py_compile scripts/*.py evaluation/*.py
 
 Automated embeddings and optical-flow proxies do not replace independent
 human review. Dataset size and adaptation budgets are deliberately disclosed.
-
