@@ -9,4 +9,4 @@ jobs:
         with: {python-version: "3.11"}
       - run: python -m py_compile scripts/*.py evaluation/*.py
       - run: python scripts/validate_public_evidence.py
-
+      - run: python scripts/plot_results.py && git diff --exit-code plots/
