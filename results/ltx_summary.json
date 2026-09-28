@@ -1,0 +1,30 @@
+{
+  "baseline": {
+    "identity_dino_cosine": 0.2976063515245915,
+    "temporal_dino_cosine": 0.9651044380664825,
+    "prompt_action_clip_cosine": 0.23300442039966585,
+    "optical_warp_mae": 5.738168106079102,
+    "brightness_drift": 0.4271986389160156,
+    "n": 50
+  },
+  "posttrain": {
+    "identity_dino_cosine": 0.26710936933755874,
+    "temporal_dino_cosine": 0.9077405714988709,
+    "prompt_action_clip_cosine": 0.25656621098518373,
+    "optical_warp_mae": 5.801606140136719,
+    "brightness_drift": 0.48090324401855467,
+    "n": 50
+  },
+  "delta_post_minus_base": {
+    "identity_dino_cosine": -0.03049698218703273,
+    "temporal_dino_cosine": -0.05736386656761161,
+    "prompt_action_clip_cosine": 0.023561790585517883,
+    "optical_warp_mae": 0.06343803405761683,
+    "brightness_drift": 0.05370460510253905
+  },
+  "models": {
+    "identity": "facebook/dinov2-small",
+    "adherence": "openai/clip-vit-base-patch32"
+  },
+  "elapsed_sec": 27.422364711761475
+}

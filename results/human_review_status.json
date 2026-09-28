@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-09-28T13:49:23.778008+09:00",
+  "status": "PENDING_HUMAN_REVIEW",
+  "required_reviewers": 3,
+  "completed_reviewers": 0,
+  "pairs": 12,
+  "no_scores_fabricated": true,
+  "quantitative_summary": {
+    "baseline": {
+      "identity_dino_cosine": 0.18252557019392648,
+      "temporal_dino_cosine": 0.8822234123945236,
+      "prompt_action_clip_cosine": 0.28657357146342594,
+      "action_success": 1.0,
+      "optical_warp_mae": 14.41212747246027,
+      "brightness_drift": 1.4339753668763093,
+      "n": 12
+    },
+    "posttrain": {
+      "identity_dino_cosine": 0.2191825956106186,
+      "temporal_dino_cosine": 0.864329993724823,
+      "prompt_action_clip_cosine": 0.26960621153314906,
+      "action_success": 1.0,
+      "optical_warp_mae": 14.176296037932238,
+      "brightness_drift": 1.809216231819969,
+      "n": 12
+    },
+    "delta_post_minus_base": {
+      "identity_dino_cosine": 0.03665702541669211,
+      "temporal_dino_cosine": -0.017893418669700623,
+      "prompt_action_clip_cosine": -0.01696735993027687,
+      "action_success": 0.0,
+      "optical_warp_mae": -0.23583143452803235,
+      "brightness_drift": 0.3752408649436596
+    },
+    "models": {
+      "identity": "facebook/dinov2-small",
+      "adherence": "openai/clip-vit-base-patch32"
+    },
+    "elapsed_sec": 17.02898645401001
+  },
+  "detected_failure_cases": 12
+}
