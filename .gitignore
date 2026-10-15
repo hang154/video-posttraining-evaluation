@@ -7,3 +7,12 @@ artifacts/
 *.bin
 *.mp4
 
+# Small, explicitly published comparison clips (the source-media policy above
+# still applies to all other media).
+!media/
+!media/base_vs_lora/
+!media/base_vs_lora/**/
+!media/base_vs_lora/**/*.mp4
+!media/base_vs_lora/README.md
+!media/base_vs_lora/SHA256SUMS
+

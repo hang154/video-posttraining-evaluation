@@ -55,6 +55,16 @@ redistributed here.
 Human review is **pending**. Blank blinded reviewer sheets and the review
 protocol are included, but no preference rate is claimed.
 
+## Published BASE vs LoRA sample clips
+
+The small comparison bundle in [`media/base_vs_lora/`](media/base_vs_lora/)
+contains the preserved BASE and LoRA-tuned clips used for the model-before /
+model-after comparison. It has 200 short MP4s: 50 matched prompt indices for
+each of LTX BASE, LTX LoRA-tuned, Hunyuan BASE, and Hunyuan LoRA-tuned. The
+directory layout and `SHA256SUMS` provide the exact pairing and integrity
+checks. This is an explicit publication of these generated samples; it does
+not change the rule that unrelated licensed source media are not redistributed.
+
 ## Validate
 
 ```bash
